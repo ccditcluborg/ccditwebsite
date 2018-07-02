@@ -1,0 +1,25 @@
+{% load bootstrap4 %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href="{% static "css/base.css" %}" rel="stylesheet">
+        <title>CCD IT Club website</title>
+        {% bootstrap_css %}
+    </head>
+    <body>
+        {% include 'navbar.html' %}
+
+        <main role="main" class="container" id="base-container">
+            {% bootstrap_messages %}
+            {% block content %}
+            {% endblock %}
+        </main>
+
+        {% bootstrap_javascript jquery=1 %}
+    </body>
+</html>

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+
+{% block content %}
+<div class="small-container">
+    <h1>Login</h1>
+    <hr />
+    <div class="card">
+        <div class="card-body">
+            <form action="{% url 'accounts:signin' %}" method="post">
+                {% csrf_token %}
+                {% bootstrap_form form %}
+                {% bootstrap_button "Login" button_type="submit" button_class="btn-primary" %}
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

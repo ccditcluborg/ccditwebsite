@@ -119,3 +119,5 @@ media/
 static/js/app.js # this is temporary (don't commit client files to 
 js)
 
+.floo
+.flooignore
