@@ -1,0 +1,50 @@
+
+body {
+  display: block;
+  background: url(./RockyMts.jpg) no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.credo {
+  color: #00008B;
+  text-shadow:
+  -1px -1px 0 #FFD700,
+  1px -1px 0 #FFD700,
+  -1px 1px 0 #FFD700,
+  1px 1px 0 #FFD700;
+  text-align: center;
+  font-weight: bold;	
+}
+
+.mission {
+  color: #00008B;
+  text-shadow:
+  -1px -1px 0 #FFD700,
+  1px -1px 0 #FFD700,
+  -1px 1px 0 #FFD700,
+  1px 1px 0 #FFD700;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Events {
+  color: purple;
+  text-shadow:
+  -1px -1px 0 #ffffff,
+  1px -1px 0 #ffffff,
+ -1px 1px 0 #ffffff,
+  1px 1px 0 #ffffff;
+}
+
+
+
+p {
+  color: purple;
+  text-align: center;
+  text-family: Arial;
+  font-weight: bold;
+  text-size: 20px;
+}
